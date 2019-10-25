@@ -8,6 +8,11 @@
     border-radius: 0px;
   }
 }
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+color:          white;
+text-shadow:    none;
+}
 .logo{
-  width: 20%;
+  width: 100px;
+  height:50px ;
 }
