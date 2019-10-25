@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/karla', function(){
-    return view('karla');
+
+Route::get('/', function () {
+    return view('templates/navbar');
 });

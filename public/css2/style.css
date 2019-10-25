@@ -1,0 +1,13 @@
+.navbar{
+  color: #e20a0a !important;
+  background-color: #e60012 !important;
+}
+@media (min-width: 768px)
+{
+  .navbar {
+    border-radius: 0px;
+  }
+}
+.logo{
+  width: 20%;
+}
