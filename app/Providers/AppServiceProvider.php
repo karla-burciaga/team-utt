@@ -23,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        app('view')->addExtension('pug.blade.php', 'pug.blade');
     }
 }

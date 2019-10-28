@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', function () {
-    return view('templates/navbar');
+    return view('landing');
 });

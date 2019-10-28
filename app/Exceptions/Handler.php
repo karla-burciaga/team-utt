@@ -4,10 +4,12 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;
+use Bkwld\LaravelPug\ExceptionHandlerTrait;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
 {
+    use ExceptionHandlerTrait;
     /**
      * A list of the exception types that should not be reported.
      *
