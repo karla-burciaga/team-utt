@@ -1,0 +1,13 @@
+.contenedores
+{
+  padding-top: 17.5%;
+}
+.container-img{
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+}
+.col-md-8
+{
+  padding-left: 0px;
+}

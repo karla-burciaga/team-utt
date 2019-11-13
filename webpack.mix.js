@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+mezclar.pug = require( ' laravel-mix-pug ' );  
 
 /*
  |--------------------------------------------------------------------------
@@ -11,5 +12,15 @@ let mix = require('laravel-mix');
  |
  */
 
+  
+mix.setPublicPath('dist');
+mix.pug = require('laravel-mix-blade-pug');
+
+/**
+ * Blade Views
+ */
+mix.pug('src/views', 'public/views');
+
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .pug('src/*.pug','dist');

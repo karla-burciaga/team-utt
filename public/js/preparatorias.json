@@ -1,0 +1,51 @@
+[
+	{
+		"nombre":"Colegio Antonio Caso",
+		"ubicacion":"Avenida Abasolo #617 Colonia Centro",
+			"punto":{
+			"coordinates":["25.542259","-103.441930"] 
+		}
+	},
+	{
+		"nombre":"Colegio de diseño y decoración(CODISDEC).",
+		"ubicacion":"Avenida  Ocampo #43 Pte. Colonia Centro",
+		"punto":{
+			"coordinates":["25.542929","-103.449395"] 
+		}
+	},
+	{
+		"nombre":"Colegio Immanuel Kant",
+		"ubicacion":"Avenida Matamoros 857pte. Colonia Centro",
+		"punto":{
+			"coordinates":["25.540314","-103.458449"] 
+		}
+	},
+	{
+		"nombre":"Colegio Benavente",
+		"ubicacion":"Calle Juan Pablos #425 Sur Colonia Centro",
+		"punto":{
+			"coordinates":["",""] 
+		}
+	},
+	{
+		"nombre":"Colegio meze",
+		"ubicacion":"Adolfo López Mateos #1030 Colonia Zaragoza.",
+		"punto":{
+			"coordinates":["",""] 
+		}
+	},
+	{
+		"nombre":"Instituto de Profesionistas",
+		"ubicacion":"Avenida Allende #410 ote. Colonia Centro C.P. 27000",
+		"punto":{
+			"coordinates":["",""] 
+		}
+	},
+	{
+		"nombre":"Colegio Comercial Treviño",
+		"ubicacion":" Prolongacion Jiménez Sur 269, Primero de Cobián Centro",
+		"punto":{
+			"coordinates":["",""] 
+		}
+	}
+]

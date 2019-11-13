@@ -1,0 +1,59 @@
+include templates/navbar.pug
+include templates/footer.pug
+div(class="col-md-11")
+    div(id="myCarousel" class="carousel slide" data-ride="carousel" stile="margin-top:20px")
+        ol(class="carousel-indicators")
+            li(data-target="#myCarousel" data-slide-to="0" class="active")
+            li(data-target="#myCarousel" data-slide-to="1")
+            li(data-target="#myCarousel" data-slide-to="2")
+            li(data-target="#myCarousel" data-slide-to="3")
+            li(data-target="#myCarousel" data-slide-to="4")
+
+        div(class="carousel-inner")
+            div(class="item active")
+                img(src="img/fmain-img-01.jpg" alt="")
+            div(class="item")
+                img(src="img/fmain-img-02.jpg" alt="")
+            div(class="item")
+                img(src="img/fmain-img-03.jpg" alt="")
+            div(class="item")
+                img(src="img/fmain-img-04.jpg" alt="")
+            div(class="item")
+                img(src="img/fmain-img-05.jpg" alt="")
+
+        a(class="left carousel-control" href="#myCarousel" data-slide="prev")
+            span(class="glyphicon glyphicon-chevron-left")
+            
+        
+        a(class="right carousel-control" href="#myCarousel" data-slide="next")
+            span(class="glyphicon glyphicon-chevron-right")
+div(class="col-xs-12 content text-center")
+    h2(style="font-size:48px;color:#e60012") Familia Nintendo Switch
+div(class="col-md-12" style="margin:30px")
+div(class="col-md-1" style="")
+div(class="col-md-11" style="")
+    div(class="row switch-bottom-nso" style="background:red; hover:#ca9898")
+        div(class="col-md-4 col-md-push-4 col-xs-6 nso-row-image")
+            img(class="img-responsive" src="https://mmcweb.de/switch_bottom/img-nso.png")
+        div(class="col-md-4 col-md-pull-4 col-xs-6 nso-row-logo")
+            div(class="online-wrap")
+                img(class="img-responsive" src="https://mmcweb.de/switch_bottom/img-nso-logo.png")
+        div(class="col-md-4 col-xs-12 nso-row-text")
+            div(class="nso-text" style="color: white;padding-right: 20px; margin: 20px;margin-top: 60px")
+                h3(style="color:white;padding-left: 18px;position: relative;font-size: 24px;
+                margin-top: 22px;margin-bottom: 11px;font-family: inherit") Nintendo Switch Online
+                p(style="color:white") ¡Saca más partido a tu consola con el servicio de suscripción de pago Nintendo Switch Online!
+div(class="col-md-12" style="margin:30px")
+div(class="col-md-1" style="")
+div(class="col-md-11" style="")
+    div(class="container-wrapper")
+        div(class="row switch-bottom-parents")
+            div(class="col-md-4 col-md-push-4 col-xs-6")
+                img(class="img-responsive" src="https://mmcweb.de/switch_bottom/img-parents.png")
+            div(class="col-md-4 col-md-pull-4 col-xs-6")
+                div(class="online-wrap-parents")
+                    img(class="img-responsive" src="https://mmcweb.de/switch_bottom/img-parental-logo_es.png")
+            div(class="col-md-4 col-xs-12 parents-row-text")
+                div(class="parents-text")
+                    h3 Control parental de Nintendo Switch
+                    p Una experiencia de juego divertida y segura para tus hijos
