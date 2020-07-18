@@ -17,7 +17,7 @@
     "laravel-mix": "^1.0",
     "laravel-mix-blade-pug": "^1.0.5",
     "laravel-mix-pug": "^0.3.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "vue": "^2.1.10"
   },
   "dependencies": {
